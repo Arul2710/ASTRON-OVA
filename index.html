@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Astronova — Mobile planetarium & astronomy outreach. Bringing the universe closer to everyone.">
+  <title>ASTRONOVA | Mobile Planetarium & Astronomy Outreach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="Home">
+  <header id="siteNav"></header>
+  <canvas id="starfield"></canvas>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero has-hero-bg">
+      <div class="hero-bg"><img src="https://bigthink.com/wp-content/uploads/2023/02/AdobeStock_558949687.jpg" alt="Starry night sky" loading="eager"></div>
+      <div class="nebula nebula-blue" style="width:500px;height:500px;top:-10%;inset-inline-start:-10%"></div>
+      <div class="nebula nebula-cyan" style="width:400px;height:400px;bottom:0;inset-inline-end:0"></div>
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="hero-badge"><i class="fas fa-satellite"></i> IMMERSIVE ASTRONOMY OUTREACH</span>
+          <h1>Explore the Universe<br><span class="gradient-text">Bring Space to Your Doorstep.</span></h1>
+          <p class="lead">Mobile planetarium experiences, astronomy shows and hands-on STEM programs designed to turn curiosity into discovery.</p>
+          <div class="hero-btns">
+            <a href="programs.html" class="btn btn-primary"><i class="fas fa-rocket"></i> Explore Programs</a>
+            <a href="#" class="btn btn-secondary" data-book><i class="fas fa-calendar-check"></i> Request Experience</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal d-2">
+          <div class="planet-scene">
+            <div class="planet-ring"><span class="orbit-dot"></span></div>
+          </div>
+          <div class="float-card fc-1">
+            <div class="fc-icon"><i class="fas fa-globe"></i></div>
+            <div><h4>360° Dome Experience</h4><p>Full immersive projection</p></div>
+          </div>
+          <div class="float-card fc-2">
+            <div class="fc-icon"><i class="fas fa-hd"></i></div>
+            <div><h4>4K Cosmic Projection</h4><p>Crystal-clear detail</p></div>
+          </div>
+          <div class="float-card fc-3">
+            <div class="fc-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div><h4>STEM Certified Programs</h4><p>Curriculum-aligned</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats-wrap">
+      <div class="container stats-grid">
+        <div class="reveal"><div class="stat-number" data-count="500" data-suffix="+">0</div><div class="stat-label">Schools Reached</div></div>
+        <div class="reveal d-1"><div class="stat-number" data-count="25" data-suffix="K+">0</div><div class="stat-label">Students Inspired</div></div>
+        <div class="reveal d-2"><div class="stat-number" data-count="1200" data-suffix="+">0</div><div class="stat-label">Events Delivered</div></div>
+        <div class="reveal d-3"><div class="stat-number" data-count="350" data-suffix="+">0</div><div class="stat-label">Telescope Sessions</div></div>
+      </div>
+    </section>
+
+    <!-- ============ 1. PLANETARIUM PROGRAMS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our Programs</span>
+          <h2>Experiences Designed to Inspire</h2>
+          <p class="section-sub">From immersive dome journeys to hands-on STEM labs, every program is crafted by professional astronomy educators.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-img"><img src="https://www.swlondoner.co.uk/wp-content/uploads/2026/01/planetarium_interior-970x605.jpg" alt="Mobile planetarium dome" loading="lazy"><div class="overlay"></div></div>
+            <div class="card-body">
+              <div class="card-icon"><i class="fas fa-dharmachakra"></i></div>
+              <h3>Mobile Planetarium</h3>
+              <p>Our signature inflatable dome brings a full 360° cosmic experience to your location.</p>
+              <ul class="feature-list">
+                <li><i class="fas fa-check"></i> 360° immersive projection</li>
+                <li><i class="fas fa-check"></i> Up to 35 students</li>
+                <li><i class="fas fa-check"></i> 45-minute sessions</li>
+              </ul>
+              <a href="programs.html" class="btn btn-secondary mt-1">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card reveal d-1">
+            <div class="card-img"><img src="https://www.sbnature.org/uploads/pages/MiscB20180908-57forDAM-1661190759-460x355.jpg" alt="School astronomy program" loading="lazy"><div class="overlay"></div></div>
+            <div class="card-body">
+              <div class="card-icon"><i class="fas fa-school"></i></div>
+              <h3>School Astronomy Programs</h3>
+              <p>Curriculum-aligned sessions that sync with TEKS & NGSS standards for K-12 classrooms.</p>
+              <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Grade-appropriate content</li>
+                <li><i class="fas fa-check"></i> Curriculum-aligned</li>
+                <li><i class="fas fa-check"></i> Flexible scheduling</li>
+              </ul>
+              <a href="programs.html" class="btn btn-secondary mt-1">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card reveal d-2">
+            <div class="card-img"><img src="https://quickline.co.uk/wp-content/uploads/2026/05/Quickline-inspires-next-generation-with-STEM-workshops-in-East-Yorkshire-village-Content-2.jpg" loading="lazy"><div class="overlay"></div></div>
+            <div class="card-body">
+              <div class="card-icon"><i class="fas fa-microscope"></i></div>
+              <h3>STEM Workshops</h3>
+              <p>Hands-on labs including rocket engineering, spectroscopy and space science experiments.</p>
+              <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Rocket building & launching</li>
+                <li><i class="fas fa-check"></i> Spectroscopy experiments</li>
+                <li><i class="fas fa-check"></i> Hands-on activities</li>
+              </ul>
+              <a href="programs.html" class="btn btn-secondary mt-1">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. INTERACTIVE DIGITAL OBSERVATORY ============ -->
+    <section class="section observatory">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Digital Observatory</span>
+          <h2>Step Inside the Digital Observatory</h2>
+          <p class="section-sub">Interact with our cosmic simulator to preview the wonders you'll explore through our dome and telescope optics.</p>
+        </div>
+        <div class="obs-grid">
+          <div class="obs-window reveal reveal-left">
+            <img id="obsImage" alt="Celestial object view" style="opacity:1">
+            <div class="scope-corner"></div>
+            <div class="scope-corner right"></div>
+          </div>
+          <div class="reveal reveal-right">
+            <div class="obs-selector">
+              <button class="obs-btn" data-obs="moon">Moon</button>
+              <button class="obs-btn" data-obs="mars">Mars</button>
+              <button class="obs-btn" data-obs="saturn">Saturn</button>
+              <button class="obs-btn" data-obs="jupiter">Jupiter</button>
+              <button class="obs-btn" data-obs="nebula">Orion Nebula</button>
+            </div>
+            <h3 id="obsTitle">The Moon</h3>
+            <p id="obsDesc" style="color:var(--text-secondary)"></p>
+            <div class="obs-meta">
+              <div class="meta-box"><div class="meta-label">Coordinates</div><div class="meta-value" id="obsCoords"></div></div>
+              <div class="meta-box"><div class="meta-label">Distance</div><div class="meta-value" id="obsDistance"></div></div>
+              <div class="meta-box"><div class="meta-label">Type</div><div class="meta-value" id="obsType"></div></div>
+              <div class="meta-box"><div class="meta-label">Field Guide</div><div class="meta-value" id="obsReading"></div></div>
+            </div>
+            <div class="fact-box"><i class="fas fa-lightbulb"></i><span id="obsFact"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. ASTRONOMY SHOWS (preview) ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Repertoire</span>
+          <h2>Astronomy Shows</h2>
+          <p class="section-sub">Cinematic journeys and STEM dome experiences for every audience.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-img"><img src="https://cdn.wallpapersafari.com/71/32/Ylgq7x.jpg" alt="Galaxy Explorer" loading="lazy"><div class="overlay"></div><span class="badge" style="position:absolute;top:12px;inset-inline-start:12px">Astronomy</span></div>
+            <div class="card-body">
+              <h3>Galaxy Explorer</h3>
+              <p>A cinematic journey to the edge of the known universe.</p>
+              <a href="shows.html" class="btn btn-ghost mt-1">View Show <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card reveal d-1">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=900&q=70" alt="Mission to Mars" loading="lazy"><div class="overlay"></div><span class="badge" style="position:absolute;top:12px;inset-inline-start:12px">STEM</span></div>
+            <div class="card-body">
+              <h3>Mission to Mars</h3>
+              <p>The physics and challenges of building a home on the Red Planet.</p>
+              <a href="shows.html" class="btn btn-ghost mt-1">View Show <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card reveal d-2">
+            <div class="card-img"><img src="https://img.freepik.com/premium-photo/realistic-solar-system-8k-detailed_932514-1301.jpg" alt="Solar System Journey" loading="lazy"><div class="overlay"></div><span class="badge" style="position:absolute;top:12px;inset-inline-start:12px">Astronomy</span></div>
+            <div class="card-body">
+              <h3>Solar System Journey</h3>
+              <p>Visit every planet and moon in our cosmic backyard.</p>
+              <a href="shows.html" class="btn btn-ghost mt-1">View Show <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="text-center mt-3 reveal">
+          <a href="shows.html" class="btn btn-primary">Browse All Shows <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. LIVE SPACE DATA ============ -->
+    <section class="section" style="background:var(--bg-secondary)">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Live Data Panel</span>
+          <h2>Tonight in the Sky</h2>
+          <p class="section-sub">A preview dashboard with realistic demo data, structured so a live astronomy API can connect later.</p>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card reveal">
+            <div class="dash-icon"><i class="fas fa-moon"></i></div>
+            <h3>Moon Phase</h3>
+            <div class="dash-status">Waxing Gibbous — 72% illuminated</div>
+            <div class="meter"><span style="width:72%"></span></div>
+          </div>
+          <div class="dash-card reveal d-1">
+            <div class="dash-icon"><i class="fas fa-earth-americas"></i></div>
+            <h3>Visible Planets</h3>
+            <div class="dash-status">Saturn, Jupiter, Mars · Venus near horizon</div>
+            <div class="meter"><span style="width:85%"></span></div>
+          </div>
+          <div class="dash-card reveal d-2">
+            <div class="dash-icon"><i class="fas fa-sun"></i></div>
+            <h3>Sunrise / Sunset</h3>
+            <div class="dash-status">Sunset 6:42 PM · Sunrise 6:15 AM</div>
+            <div class="meter"><span style="width:55%"></span></div>
+          </div>
+          <div class="dash-card reveal">
+            <div class="dash-icon"><i class="fas fa-cloud-sun"></i></div>
+            <h3>Visibility</h3>
+            <div class="dash-status">Clear skies expected · Excellent</div>
+            <div class="meter"><span style="width:90%"></span></div>
+          </div>
+          <div class="dash-card reveal d-1">
+            <div class="dash-icon"><i class="fas fa-gauge-high"></i></div>
+            <h3>Sky Quality</h3>
+            <div class="dash-status">Bortle Class 4 · Suburban sky</div>
+            <div class="meter"><span style="width:68%"></span></div>
+          </div>
+          <div class="dash-card reveal d-2">
+            <div class="dash-icon"><i class="fas fa-clock"></i></div>
+            <h3>Best Viewing Window</h3>
+            <div class="dash-status">9:00 PM – Midnight tonight</div>
+            <div class="meter"><span style="width:75%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. WHY ASTRONOVA ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why Us</span>
+          <h2>Why Schools Choose Astronova</h2>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-content">
+            <h3>Education That Aligns With Your Curriculum</h3>
+            <p style="color:var(--text-secondary);margin:1rem 0">Every program is developed alongside educators to reinforce classroom learning, not replace it.</p>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Curriculum-aligned learning</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Professional astronomy educators</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Hands-on STEM activities</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Flexible school scheduling</div>
+          </div>
+          <div class="why-media"><img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=900&q=70" alt="Students learning in planetarium" loading="lazy"></div>
+        </div>
+        <div class="why-item reversed reveal">
+          <div class="why-content">
+            <h3>An Immersive Experience That Sticks</h3>
+            <p style="color:var(--text-secondary);margin:1rem 0">Our 4K 360° dome projection transports students into the cosmos for unforgettable, retention-boosting lessons.</p>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Immersive 360° projection</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Safe mobile setup</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> 4K cinematic visuals</div>
+            <div class="why-point"><span class="check"><i class="fas fa-check"></i></span> Engaging interactive Q&A</div>
+          </div>
+          <div class="why-media"><img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=900&q=70" alt="Immersive 360 degree projection" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. CTA / CONTACT ============ -->
+    <section class="section" style="background:var(--bg-secondary)">
+      <div class="container text-center" style="max-width:760px">
+        <div class="reveal">
+          <span class="eyebrow">Get Started</span>
+          <h2>Ready to Bring the Universe to Your Doorstep?</h2>
+          <p class="section-sub" style="margin-left:auto;margin-right:auto">Book a planetarium experience, request a program, or get in touch with our team today.</p>
+          <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:2rem">
+            <a href="#" class="btn btn-primary" data-book><i class="fas fa-calendar-check"></i> Request Experience</a>
+            <a href="contact.html" class="btn btn-secondary"><i class="fas fa-comments"></i> Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/rtl.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/observatory.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "author_name": "Sarah Mitchell",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "2 months ago",
+    "text": "The dome show was beyond anything our students expected. They were completely engaged and talked about it for weeks!",
+    "profile_data": { "role": "5th Grade Teacher" }
+  },
+  {
+    "author_name": "David Reyes",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "1 month ago",
+    "text": "Booked a birthday astronomy party for my son. The astronomy educators were fantastic and made it truly magical.",
+    "profile_data": { "role": "Parent" }
+  },
+  {
+    "author_name": "Jane Alvarez",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "3 weeks ago",
+    "text": "A perfect blend of curriculum-aligned content and hands-on excitement. Our science fair was a huge hit because of them.",
+    "profile_data": { "role": "Science Coordinator" }
+  },
+  {
+    "author_name": "Marcus Lee",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "2 weeks ago",
+    "text": "Professional, organized and inspiring. The telescope night under the stars was unforgettable for our whole school.",
+    "profile_data": { "role": "School Principal" }
+  },
+  {
+    "author_name": "Elena Park",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "1 week ago",
+    "text": "Our community event drew record crowds. The pop-up observatory and dome shows were simply spectacular.",
+    "profile_data": { "role": "Librarian" }
+  },
+  {
+    "author_name": "Tom Nguyen",
+    "author_url": "https://www.google.com/maps",
+    "rating": 5,
+    "relative_time_description": "3 days ago",
+    "text": "The STEM workshops are hands-on, well-structured and deeply tied to the curriculum. Highly recommended.",
+    "profile_data": { "role": "STEM Instructor" }
+  }
+]
