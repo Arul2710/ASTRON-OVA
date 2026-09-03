@@ -73,7 +73,7 @@ function buildNavbar(active) {
       '<div class="nav-actions">' +
         '<button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>' +
         '<button class="icon-btn" data-rtl-toggle aria-label="Toggle direction"></button>' +
-        '<a href="login.html" class="btn btn-ghost btn-login-desktop"><i class="fas fa-user-astronaut"></i> Login</a>' +
+        '<a href="login.html" class="btn btn-login-desktop"><i class="fas fa-user-astronaut"></i> Login</a>' +
         '<button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
       '</div>' +
     '</div></div>' +
@@ -279,6 +279,17 @@ document.addEventListener('DOMContentLoaded', function () {
       var input = form.querySelector('input[type="email"]');
       if (input && input.value && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
         form.innerHTML = '<p style="color:var(--cyan-glow)">Thanks! You\'re subscribed to the cosmic newsletter.</p>';
+      }
+    });
+  });
+
+  /* ---------- Notify Me forms ---------- */
+  document.querySelectorAll('.notify-submit').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var input = form.querySelector('input[type="email"]');
+      if (input && input.value && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
+        form.innerHTML = '<p style="color:var(--cyan-glow);font-size:0.85rem"><i class="fas fa-check-circle"></i> You\'re on the cosmic alert list!</p>';
       }
     });
   });
